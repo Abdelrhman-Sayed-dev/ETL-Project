@@ -6,6 +6,8 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s' , level=l
 logger = logging.getLogger(__name__)
 
 path = Path(r'E:\ETL-Project\raw_data')
+
+
 def extract():
     logger.info('data extraction start')
 
